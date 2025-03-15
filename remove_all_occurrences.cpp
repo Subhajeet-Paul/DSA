@@ -10,6 +10,7 @@ int main() {
         str.erase(str.find(part), part.length());
     }
 
+    cout<<"String after removing all occurrences of 'abc': ";
     cout << str << endl;
     return 0;
 }
